@@ -1,0 +1,13 @@
+# файл с параметрами
+
+folder_in: /home/user2/test_folder  # куда распаковываем архив
+folder_out: /home/user2/test_out  # куда помещаем архив
+folder_from: /home/user2/test_dir # откуда берем файлы для архивации
+folder_neg: /home/user2/folder_neg  # откуда берем поврежденный архив
+count: 1  # количество создаваемых тестовых файлов
+bs: 1M  # размер файла
+type: 7z  # расширение
+ip: 0.0.0.0 # хост
+user: user2 # имя пользователя
+passwd: '3116'
+pkgname: p7zip-full # название пакета
